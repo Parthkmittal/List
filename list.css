@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://s3.envato.com/files/248033467/0ltolama-11.jpg");
+  }
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 10px;
+    background-color: #723805a6;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(247, 149, 74, 0.8);
+    padding: 20px 0;
+    font-size: 30px;
+  }
